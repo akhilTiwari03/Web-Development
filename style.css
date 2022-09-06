@@ -1,0 +1,23 @@
+ .paragraph{
+    color: blue;
+    font-style: bold;
+    size: 20px;
+}
+/* article p{
+    font-size: large;
+    color: blueviolet;
+
+} */
+/* article>p{
+    font-family: 'Courier New', Courier, monospace;
+} */
+article +p{
+    color: yellow;
+}
+.nesting{
+    color: brown;
+
+}
+article:nth-child(2n){
+    border: 2px solid black;
+}
